@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 40px;
+}
+
+img {
+    width: 200px;
+    padding-top: 90px;
+}
+
+.menu {
+    list-style: none;
+    z-index: 20;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: cell;
+}
+
+.link {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 25px;
+    color: wheat;
+    font-family: 'pangolin', cursive;
+}
+
+.link:hover {
+    background-color: cornflowerblue
+}
+#welcome{
+    background: linear-gradient(#fab641 0%, #a113e8 100%);
+}
